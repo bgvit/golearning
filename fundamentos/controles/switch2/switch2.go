@@ -1,10 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
-func main(){
+func main() {
 	t := time.Now()
-	
+
 	switch {
 	case t.Hour() < 12:
 		fmt.Println("Bom dia!")
@@ -13,4 +16,5 @@ func main(){
 	default:
 		fmt.Println("Boa noite.")
 	}
+	contar()
 }
