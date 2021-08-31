@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func contar() {
 
 	fmt.Println(notaParaConceito(10))
 	fmt.Println(notaParaConceito(2))
