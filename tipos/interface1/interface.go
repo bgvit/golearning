@@ -34,5 +34,3 @@ func main() {
 	fmt.Println(thing.toString())
 	imprimir(thing)
 }
-
-61406144
